@@ -2,9 +2,10 @@
 
 import Conta from '../../support/CadastroConta';
 import Criar from '../../support/CriarConta'
-
+var randomEmail = require('../../../node_modules/random-email')
 var emailValido = 'hicona4846@ailoki.com';
-var emailCadastro = 'hamibo5327@awg5.com';
+var emailCadastro = randomEmail();
+
 
 describe('Criar Conta', () => {
     
