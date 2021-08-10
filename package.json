@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^8.2.0"
+  },
+  "dependencies": {
+    "random-email": "^1.0.3"
   }
 }
